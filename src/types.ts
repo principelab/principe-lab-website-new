@@ -6,6 +6,7 @@ export interface Publication {
   journal: string;
   year: number;
   abstract: string;
+  image: string;
   tags: string[];
   links: {
     pdf?: string;

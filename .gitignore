@@ -1,4 +1,38 @@
+# Dependencies
 node_modules/
+
+# Build outputs
 dist/
-.env
+*.tsbuildinfo
+*.js.map
+*.css.map
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
 .DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# EditorConfig
+.editorconfig
+
+# Vite
+vite/

@@ -1,1 +1,1 @@
-{"root":["./eslint.config.js","./vite.config.ts","./src/app.tsx","./src/constants.tsx","./src/main.tsx","./src/types.ts","./src/components/navigation.tsx","./src/components/publicationcard.tsx","./src/components/teamgrid.tsx"],"errors":true,"version":"5.9.3"}
+{"root":["./eslint.config.js","./vite.config.ts","./src/app.tsx","./src/constants.tsx","./src/main.tsx","./src/types.ts","./src/components/navigation.tsx","./src/components/publicationcard.tsx","./src/components/teamgrid.tsx"],"version":"5.9.3"}

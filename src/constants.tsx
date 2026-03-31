@@ -43,7 +43,7 @@ export const PUBLICATIONS: Publication[] = [
     title: "The Therapeutic Loop: Closed-Loop Epilepsy Systems Mirroring the Read-Write Architecture of Brain-Computer Interfaces",
     authors: ["J Montoya-Gálvez", "K Ivankovic", "R Rocamora", "A Principe"],
     journal: "Applied Sciences 16 (1), 294",
-    image: "./src/assets/montoya_et_al_2025.jpg",
+    image: "/assets/montoya_et_al_2025.jpg",
     year: 2025,
     abstract: "By framing closed-loop neuromodulation as a read-write brain-computer interface, this review identifies critical barriers to clinical translation and outlines the path toward fully autonomous systems for treating drug-resistant epilepsy.",
     tags: ["Peer Reviewed"],
@@ -64,7 +64,7 @@ export const PUBLICATIONS: Publication[] = [
     id: '3',
     title: "On the concordance between electrical source imaging, anatomical and functional neuroimaging in patients with focal epilepsy",
     authors: ["M Ley", "R Zucca", "K Langohr", "A Principe", "J Capellades", "M Aguilar", "R Rocamora"],
-    image: "./src/assets/ley.jpg",
+    image: "/assets/ley.jpg",
     journal: "Clinical Neurophysiology 172, 22-32",
     year: 2025,
     abstract: "Limited knowledge exists regarding how electrical source imaging (ESI) of interictal epileptiform discharges (IEDs) aligns with findings from other neuroimaging modalities. This study investigates the relationships of interictal ESI with MRI, 18FDG PET, SISCOM, and voxel-based morphometry (VBM) during presurgical evaluation of drug-resistant epilepsy (DRE).",
@@ -86,7 +86,7 @@ export const PUBLICATIONS: Publication[] = [
     id: '5',
     title: "A novel way to use cross-validation to measure connectivity by machine learning allows epilepsy surgery outcome prediction",
     authors: ["K Ivankovic", "A Principe", "J Montoya-Gálvez", "L Manubens-Gil", "R Zucca", "..."],
-    image: "./src/assets/neuroimage.jpg",
+    image: "/assets/neuroimage.jpg",
     journal: "NeuroImage 306, 120990",
     year: 2025,
     abstract: "Without relying on specific connectivity variables, we focused on a general hypothesis that the epileptogenic network (EN) undergoes the greatest magnitude of connectivity change during seizure generation, compared to other brain networks. To test this hypothesis, we developed a novel method for quantifying connectivity change between network states and applied it to identify surgical resection areas",
@@ -112,7 +112,7 @@ export const TEAM: TeamMember[] = [
     id: '1',
     name: "Dr. Alessandro Principe",
     role: "Principal Investigator",
-    image: "./src/assets/principe.jpg",
+    image: "/assets/principe.jpg",
     interests: "Neurophysiology, Epilepsy, Digital biomarkers",
     links: { scholar: "#", github: "#", twitter: "#" }
   },
@@ -120,7 +120,7 @@ export const TEAM: TeamMember[] = [
     id: '2',
     name: "Dr. Karla Ivankovic",
     role: "Post-doctoral Fellow",
-    image: "./src/assets/karla.jpg",
+    image: "/assets/karla.jpg",
     interests: "Data science, Large-scale simulations, Neural Networks",
     links: { scholar: "#", github: "#" }
   },
@@ -128,7 +128,7 @@ export const TEAM: TeamMember[] = [
     id: '3',
     name: "Justo Montoya Galvez",
     role: "Ph.D. Candidate",
-    image: "./src/assets/justo.jpeg",
+    image: "/assets/justo.jpeg",
     interests: "Biomedical engineering, Brain-Machine Interfaces",
     links: { github: "#", twitter: "#" }
   }
@@ -139,13 +139,13 @@ export const NEWS: NewsItem[] = [
     id: '1',
     date: "Jan 20, 2026",
     content: "Our review on Closed Loop Epilepsy systems was published in Applied Sciences!",
-    image: "./src/assets/montoya_et_al_2025.jpg"
+    image: "/assets/montoya_et_al_2025.jpg"
   },
   {
     id: '2',
     date: "Nov 18, 2025",
     content: "MultiPEC, a new data-driven method that identifies the specific neural encoding in artificial networks and the brain.",
-    image: "./src/assets/multiPEC.png"
+    image: "/assets/multiPEC.png"
   },
   {
     id: '3',

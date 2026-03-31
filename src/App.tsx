@@ -40,7 +40,7 @@ const App: React.FC = () => {
         {/* Fading Background Image */}
         <div className="absolute inset-0 z-0 pointer-events-none select-none">
           <img 
-            src="./src/assets/background.png" 
+            src="/assets/background.png" 
             alt="Neural Geometry Background" 
             className="w-full h-full object-cover opacity-[0.6]"
           />
@@ -83,17 +83,17 @@ const App: React.FC = () => {
           <p className="text-center font-mono text-[10px] uppercase tracking-[0.3em] text-neural-blue/40 mb-16">Affiliations and funding</p>
           <div className="flex flex-wrap justify-center items-center gap-12 md:gap-32 opacity-60 grayscale hover:grayscale-0 transition-all">
             <img 
-              src="./src/assets/HDM_Research_logo.svg" 
+              src="/assets/HDM_Research_logo.svg" 
               alt="Hospital del Mar Research Institute" 
               className="h-12 md:h-16" 
             />
             <img 
-              src="./src/assets/UPF_logo.png" 
+              src="/assets/UPF_logo.png" 
               alt="UPF Barcelona" 
               className="h-18 md:h-20" 
             />
             <img 
-              src="./src/assets/Fundacio_Tatiana.png" 
+              src="/assets/Fundacio_Tatiana.png" 
               alt="Fundacio Tatiana de Guzman" 
               className="h-30 md:h-40" 
             />
@@ -281,27 +281,27 @@ const App: React.FC = () => {
           <p className="text-center font-mono text-[10px] uppercase tracking-[0.3em] text-neural-blue/40 mb-16">Partners</p>
           <div className="flex flex-wrap justify-center items-center gap-12 md:gap-20 opacity-60 grayscale hover:grayscale-0 transition-all">
             <img 
-              src="./src/assets/CRG.png" 
+              src="/assets/CRG.png" 
               alt="CRG-Centre Recerca Genomica" 
               className="h-4 md:h-16" 
             />
             <img 
-              src="./src/assets/certh.png" 
+              src="/assets/certh.png" 
               alt="CERTH - Center for Research and Technology Hellas" 
               className="h-4 md:h-20" 
             />
             <img 
-              src="./src/assets/epicare.svg" 
+              src="/assets/epicare.svg" 
               alt="Epicare" 
               className="h-4 md:h-14" 
             />
             <img 
-              src="./src/assets/Bambino_Gesù_Hospital.png" 
+              src="/assets/Bambino_Gesù_Hospital.png" 
               alt="Hospital Bambin Gesu" 
               className="h-4 md:h-18" 
             />
             <img 
-              src="./src/assets/Duke_University_logo.png" 
+              src="/assets/Duke_University_logo.png" 
               alt="Duke University" 
               className="h-4 md:h-16" 
             />
@@ -363,7 +363,7 @@ const App: React.FC = () => {
               © 2026 Principe Lab.
             </p>
             <div className="flex space-x-8">
-              <img src="./src/assets/HDM_Research_logo.svg" alt="University Logo" className="h-10 grayscale opacity-30" />
+              <img src="/assets/HDM_Research_logo.svg" alt="University Logo" className="h-10 grayscale opacity-30" />
                </div>
           </div>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Publication, TeamMember, NewsItem } from './types';
+import { Publication, TeamMember, NewsItem, Project } from './types';
 
 export const PROJECTS : Project[] = [
   {

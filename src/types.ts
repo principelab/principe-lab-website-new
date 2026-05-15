@@ -1,3 +1,4 @@
+import React from 'react';
 
 export interface Publication {
   id: string;
@@ -33,4 +34,13 @@ export interface NewsItem {
   date: string;
   content: string;
   image?: string;
+}
+
+export interface Project {
+  id: string;
+  title: string;
+  description: string;
+  fullDescription: string;
+  icon: React.ReactNode;
+  url?: string;
 }

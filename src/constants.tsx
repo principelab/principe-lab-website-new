@@ -34,6 +34,19 @@ export const PROJECTS = [
         <div className="w-4 h-4 rounded-full border-2 border-neural-blue"></div>
       </div>
     )
+  },
+
+ {
+    id: 'ptcon',
+    title: "Predictive topologies of consciousness",
+    description: "Identifying Winning Networks across Biological and Artificial Systems.",
+    fullDescription: "By applying the 'Lottery Ticket Hypothesis' [Frankle & Carbin 2018] from AI to human neurobiology, we aim to prove that consciousness relies on sparse, highly-predictive subnetworks — 'Winning Tickets' — that govern global states.",
+    url: "https://",
+    icon: (
+      <div className="w-10 h-10 border border-neural-blue/20 flex items-center justify-center bg-white shadow-sm mb-4 rounded-full">
+        <div className="w-4 h-4 rounded-full border-2 border-neural-blue"></div>
+      </div>
+    )
   }
 ];
 

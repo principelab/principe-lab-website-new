@@ -125,6 +125,18 @@ const App: React.FC = () => {
                 <p className="text-neural-blue/50 leading-relaxed font-light text-sm">
                   {project.description}
                 </p>
+                {project.url && (
+                  <a 
+                    href={project.url} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    onClick={(e) => e.stopPropagation()}
+                    className="inline-block font-mono text-[10px] uppercase tracking-widest text-synapse-teal hover:text-neural-blue transition-colors border-b border-synapse-teal/30 hover:border-neural-blue pb-0.5"
+                  >
+                    View Project Page →
+                  </a>
+                )}
+
               </div>
             ))}
           </div>
@@ -143,9 +155,22 @@ const App: React.FC = () => {
             </button>
             <p className="font-mono text-[10px] uppercase tracking-widest text-synapse-teal mb-4">Project Detail</p>
             <h2 className="text-3xl font-bold text-neural-blue mb-8">{selectedProject.title}</h2>
-            <div className="prose prose-sm text-neural-blue/70 leading-relaxed">
+            <div className="prose prose-sm text-neural-blue/70 leading-relaxed mb-8">
               {selectedProject.fullDescription}
             </div>
+            {selectedProject.url && (
+              <div className="mb-8">
+                <a 
+                  href={selectedProject.url} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-synapse-teal/10 text-synapse-teal font-mono uppercase text-[10px] tracking-widest hover:bg-synapse-teal hover:text-white transition-all rounded"
+                >
+                  Visit Official Website
+                  <span>↗</span>
+                </a>
+              </div>
+            )}
             <div className="mt-12 pt-8 border-t border-neural-blue/5 flex justify-end">
               <button 
                 onClick={() => setSelectedProject(null)}

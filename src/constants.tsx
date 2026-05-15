@@ -1,7 +1,7 @@
 import React from 'react';
 import { Publication, TeamMember, NewsItem } from './types';
 
-export const PROJECTS = [
+export const PROJECTS : Project[] = [
   {
     id: 'eanet',
     title: "EANet: Epileptogenic adversarial networks",

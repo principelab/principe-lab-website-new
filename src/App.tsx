@@ -9,7 +9,7 @@ import { Project } from './types';
 const App: React.FC = () => {
   const [stats, setStats] = useState({ papers: 0, neurons: 0, petaflops: 0 });
   const [currentPage, setCurrentPage] = useState(1);
-  const [selectedProject, setSelectedProject] = useState<null | { title: string, fullDescription: string, id: string }>(null);
+  const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const ITEMS_PER_PAGE = 5;
 
   useEffect(() => {
@@ -113,7 +113,7 @@ const App: React.FC = () => {
           </div>
 
           <div className="grid md:grid-cols-3 gap-16">
-            {PROJECTS.map((project) => (
+            {PROJECTS.map((project: Project) => (
               <div 
                 key={project.id}
                 onClick={() => setSelectedProject(project)}
@@ -159,7 +159,7 @@ const App: React.FC = () => {
             <div className="prose prose-sm text-neural-blue/70 leading-relaxed mb-8">
               {selectedProject.fullDescription}
             </div>
-            {selectedProject.url && (
+            {selectedProject && 'url' in selectedProject && selectedProject.url && (
               <div className="mb-8">
                 <a 
                   href={selectedProject.url} 

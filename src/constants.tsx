@@ -11,7 +11,8 @@ export const PROJECTS : Project[] = [
       <div className="w-10 h-10 border border-neural-blue/20 flex items-center justify-center bg-white shadow-sm mb-4">
         <div className="w-4 h-4 bg-neural-blue"></div>
       </div>
-    )
+    ), 
+    url: undefined
   },
   {
     id: 'epigame',
@@ -22,7 +23,8 @@ export const PROJECTS : Project[] = [
       <div className="w-10 h-10 border border-neural-blue/20 flex items-center justify-center bg-white shadow-sm mb-4">
         <div className="text-xl font-bold text-neural-blue">+</div>
       </div>
-    )
+    ),
+    url: undefined
   },
   {
     id: 'multipec',
@@ -33,7 +35,8 @@ export const PROJECTS : Project[] = [
       <div className="w-10 h-10 border border-neural-blue/20 flex items-center justify-center bg-white shadow-sm mb-4 rounded-full">
         <div className="w-4 h-4 rounded-full border-2 border-neural-blue"></div>
       </div>
-    )
+    ),
+    url: undefined
   },
 
  {

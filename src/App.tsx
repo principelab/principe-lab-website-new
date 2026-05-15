@@ -4,6 +4,7 @@ import Navigation from './components/Navigation';
 import PublicationCard from './components/PublicationCard';
 import TeamGrid from './components/TeamGrid';
 import { PUBLICATIONS, NEWS, PROJECTS } from './constants';
+import { Project } from './types';
 
 const App: React.FC = () => {
   const [stats, setStats] = useState({ papers: 0, neurons: 0, petaflops: 0 });
